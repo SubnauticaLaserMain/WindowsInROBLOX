@@ -1,4 +1,4 @@
--- Instances: 49 | Scripts: 5 | Modules: 0
+-- Instances: 50 | Scripts: 6 | Modules: 0
 local G2L = {};
 
 -- StarterGui.WindowsRobloxLibrary
@@ -193,200 +193,203 @@ G2L["17"]["Name"] = [[DividerBottom]];
 G2L["18"] = Instance.new("LocalScript", G2L["3"]);
 G2L["18"]["Name"] = [[CommandController]];
 
+-- StarterGui.WindowsRobloxLibrary.FullScreenInset.Run.Drag-Manager
+G2L["19"] = Instance.new("LocalScript", G2L["3"]);
+G2L["19"]["Name"] = [[Drag-Manager]];
+
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt
-G2L["19"] = Instance.new("Frame", G2L["2"]);
-G2L["19"]["BorderSizePixel"] = 0;
-G2L["19"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 35);
-G2L["19"]["Size"] = UDim2.new(0.664000391960144, 0, 0.5383023023605347, 0);
-G2L["19"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["19"]["Position"] = UDim2.new(0.2675970494747162, 0, 0.20703934133052826, 0);
-G2L["19"]["Visible"] = false;
-G2L["19"]["Name"] = [[CommandPrompt]];
+G2L["1a"] = Instance.new("Frame", G2L["2"]);
+G2L["1a"]["BorderSizePixel"] = 0;
+G2L["1a"]["BackgroundColor3"] = Color3.fromRGB(35, 35, 35);
+G2L["1a"]["Size"] = UDim2.new(0.664000391960144, 0, 0.5383023023605347, 0);
+G2L["1a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1a"]["Position"] = UDim2.new(0.2675970494747162, 0, 0.20703934133052826, 0);
+G2L["1a"]["Visible"] = false;
+G2L["1a"]["Name"] = [[CommandPrompt]];
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.UICorner
-G2L["1a"] = Instance.new("UICorner", G2L["19"]);
+G2L["1b"] = Instance.new("UICorner", G2L["1a"]);
 
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP
-G2L["1b"] = Instance.new("Frame", G2L["19"]);
-G2L["1b"]["BorderSizePixel"] = 0;
-G2L["1b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1b"]["BackgroundTransparency"] = 1;
-G2L["1b"]["Size"] = UDim2.new(1.0000001192092896, 0, 0.0634615421295166, 0);
-G2L["1b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1b"]["Name"] = [[TopbarAPP]];
+G2L["1c"] = Instance.new("Frame", G2L["1a"]);
+G2L["1c"]["BorderSizePixel"] = 0;
+G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1c"]["BackgroundTransparency"] = 1;
+G2L["1c"]["Size"] = UDim2.new(1.0000001192092896, 0, 0.0634615421295166, 0);
+G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1c"]["Name"] = [[TopbarAPP]];
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ImageLabel
-G2L["1c"] = Instance.new("ImageLabel", G2L["1b"]);
-G2L["1c"]["BorderSizePixel"] = 0;
-G2L["1c"]["ScaleType"] = Enum.ScaleType.Fit;
-G2L["1c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1c"]["ResampleMode"] = Enum.ResamplerMode.Pixelated;
-G2L["1c"]["Image"] = [[http://www.roblox.com/asset/?id=6035078889]];
-G2L["1c"]["Size"] = UDim2.new(0.02572016231715679, 0, 0.7575757503509521, 0);
-G2L["1c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1c"]["BackgroundTransparency"] = 1;
-G2L["1c"]["Position"] = UDim2.new(0.004000000189989805, 0, 0.10000000149011612, 0);
+G2L["1d"] = Instance.new("ImageLabel", G2L["1c"]);
+G2L["1d"]["BorderSizePixel"] = 0;
+G2L["1d"]["ScaleType"] = Enum.ScaleType.Fit;
+G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1d"]["ResampleMode"] = Enum.ResamplerMode.Pixelated;
+G2L["1d"]["Image"] = [[http://www.roblox.com/asset/?id=6035078889]];
+G2L["1d"]["Size"] = UDim2.new(0.02572016231715679, 0, 0.7575757503509521, 0);
+G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1d"]["BackgroundTransparency"] = 1;
+G2L["1d"]["Position"] = UDim2.new(0.004000000189989805, 0, 0.10000000149011612, 0);
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame
-G2L["1d"] = Instance.new("ScrollingFrame", G2L["1b"]);
-G2L["1d"]["Active"] = true;
-G2L["1d"]["BorderSizePixel"] = 0;
-G2L["1d"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
-G2L["1d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["1d"]["AutomaticCanvasSize"] = Enum.AutomaticSize.X;
-G2L["1d"]["BackgroundTransparency"] = 1;
-G2L["1d"]["Size"] = UDim2.new(0.904321014881134, 0, 1, 0);
-G2L["1d"]["ScrollBarImageColor3"] = Color3.fromRGB(182, 182, 182);
-G2L["1d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1d"]["ScrollBarThickness"] = 6;
-G2L["1d"]["Position"] = UDim2.new(0.03395061567425728, 0, 0, 0);
+G2L["1e"] = Instance.new("ScrollingFrame", G2L["1c"]);
+G2L["1e"]["Active"] = true;
+G2L["1e"]["BorderSizePixel"] = 0;
+G2L["1e"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+G2L["1e"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["1e"]["AutomaticCanvasSize"] = Enum.AutomaticSize.X;
+G2L["1e"]["BackgroundTransparency"] = 1;
+G2L["1e"]["Size"] = UDim2.new(0.904321014881134, 0, 1, 0);
+G2L["1e"]["ScrollBarImageColor3"] = Color3.fromRGB(182, 182, 182);
+G2L["1e"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["1e"]["ScrollBarThickness"] = 6;
+G2L["1e"]["Position"] = UDim2.new(0.03395061567425728, 0, 0, 0);
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame.UIListLayout
-G2L["1e"] = Instance.new("UIListLayout", G2L["1d"]);
-G2L["1e"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["1f"] = Instance.new("UIListLayout", G2L["1e"]);
+G2L["1f"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame.Tab1
-G2L["1f"] = Instance.new("Frame", G2L["1d"]);
-G2L["1f"]["BorderSizePixel"] = 0;
-G2L["1f"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f"]["Size"] = UDim2.new(0, 215, 0, 38);
-G2L["1f"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["1f"]["Name"] = [[Tab1]];
+G2L["20"] = Instance.new("Frame", G2L["1e"]);
+G2L["20"]["BorderSizePixel"] = 0;
+G2L["20"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Size"] = UDim2.new(0, 215, 0, 38);
+G2L["20"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["20"]["Name"] = [[Tab1]];
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame.Tab1.UICorner
-G2L["20"] = Instance.new("UICorner", G2L["1f"]);
+G2L["21"] = Instance.new("UICorner", G2L["20"]);
 
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame.Tab1.ImageLabel
-G2L["21"] = Instance.new("ImageLabel", G2L["1f"]);
-G2L["21"]["BorderSizePixel"] = 0;
-G2L["21"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["21"]["Image"] = [[http://www.roblox.com/asset/?id=6022668961]];
-G2L["21"]["Size"] = UDim2.new(0, 31, 0, 31);
-G2L["21"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["21"]["BackgroundTransparency"] = 1;
-
--- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame.Tab1.TextLabel
-G2L["22"] = Instance.new("TextLabel", G2L["1f"]);
+G2L["22"] = Instance.new("ImageLabel", G2L["20"]);
 G2L["22"]["BorderSizePixel"] = 0;
 G2L["22"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["22"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["22"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["22"]["TextSize"] = 14;
-G2L["22"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["22"]["Size"] = UDim2.new(0, 184, 0, 31);
+G2L["22"]["Image"] = [[http://www.roblox.com/asset/?id=6022668961]];
+G2L["22"]["Size"] = UDim2.new(0, 31, 0, 31);
 G2L["22"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["22"]["Text"] = [[Administrator: Command Prompt]];
 G2L["22"]["BackgroundTransparency"] = 1;
-G2L["22"]["Position"] = UDim2.new(0.14418604969978333, 0, 0, 0);
+
+-- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame.Tab1.TextLabel
+G2L["23"] = Instance.new("TextLabel", G2L["20"]);
+G2L["23"]["BorderSizePixel"] = 0;
+G2L["23"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["23"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["23"]["TextSize"] = 14;
+G2L["23"]["TextColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["23"]["Size"] = UDim2.new(0, 184, 0, 31);
+G2L["23"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["23"]["Text"] = [[Administrator: Command Prompt]];
+G2L["23"]["BackgroundTransparency"] = 1;
+G2L["23"]["Position"] = UDim2.new(0.14418604969978333, 0, 0, 0);
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ScrollingFrame.Tab1.TextLabel.UIPadding
-G2L["23"] = Instance.new("UIPadding", G2L["22"]);
+G2L["24"] = Instance.new("UIPadding", G2L["23"]);
 
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ExitButton
-G2L["24"] = Instance.new("ImageButton", G2L["1b"]);
-G2L["24"]["BorderSizePixel"] = 0;
-G2L["24"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["24"]["Image"] = [[http://www.roblox.com/asset/?id=6031094678]];
-G2L["24"]["Size"] = UDim2.new(0.018518518656492233, 0, 0.5454545617103577, 0);
-G2L["24"]["Name"] = [[ExitButton]];
-G2L["24"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["24"]["Position"] = UDim2.new(0.9722222089767456, 0, 0.1818181872367859, 0);
-G2L["24"]["BackgroundTransparency"] = 1;
+G2L["25"] = Instance.new("ImageButton", G2L["1c"]);
+G2L["25"]["BorderSizePixel"] = 0;
+G2L["25"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["25"]["Image"] = [[http://www.roblox.com/asset/?id=6031094678]];
+G2L["25"]["Size"] = UDim2.new(0.018518518656492233, 0, 0.5454545617103577, 0);
+G2L["25"]["Name"] = [[ExitButton]];
+G2L["25"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["25"]["Position"] = UDim2.new(0.9722222089767456, 0, 0.1818181872367859, 0);
+G2L["25"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ExitButton.ExitCMD-Controller
-G2L["25"] = Instance.new("LocalScript", G2L["24"]);
-G2L["25"]["Name"] = [[ExitCMD-Controller]];
+G2L["26"] = Instance.new("LocalScript", G2L["25"]);
+G2L["26"]["Name"] = [[ExitCMD-Controller]];
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body
-G2L["26"] = Instance.new("Frame", G2L["19"]);
-G2L["26"]["BorderSizePixel"] = 0;
-G2L["26"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["Size"] = UDim2.new(1.0000001192092896, 0, 0.9403846263885498, 0);
-G2L["26"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["26"]["Position"] = UDim2.new(0, 0, 0.05961538478732109, 0);
-G2L["26"]["Name"] = [[Body]];
+G2L["27"] = Instance.new("Frame", G2L["1a"]);
+G2L["27"]["BorderSizePixel"] = 0;
+G2L["27"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Size"] = UDim2.new(1.0000001192092896, 0, 0.9403846263885498, 0);
+G2L["27"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["27"]["Position"] = UDim2.new(0, 0, 0.05961538478732109, 0);
+G2L["27"]["Name"] = [[Body]];
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.UICorner
-G2L["27"] = Instance.new("UICorner", G2L["26"]);
+G2L["28"] = Instance.new("UICorner", G2L["27"]);
 
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.ScrollingFrame
-G2L["28"] = Instance.new("ScrollingFrame", G2L["26"]);
-G2L["28"]["Active"] = true;
-G2L["28"]["BorderSizePixel"] = 0;
-G2L["28"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
-G2L["28"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["28"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
-G2L["28"]["BackgroundTransparency"] = 1;
-G2L["28"]["Size"] = UDim2.new(0.9958847761154175, 0, 0.8854805827140808, 0);
-G2L["28"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["28"]["ScrollBarThickness"] = 6;
-G2L["28"]["Position"] = UDim2.new(0.003999937791377306, 0, 0.020449897274374962, 0);
+G2L["29"] = Instance.new("ScrollingFrame", G2L["27"]);
+G2L["29"]["Active"] = true;
+G2L["29"]["BorderSizePixel"] = 0;
+G2L["29"]["CanvasSize"] = UDim2.new(0, 0, 0, 0);
+G2L["29"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["29"]["AutomaticCanvasSize"] = Enum.AutomaticSize.Y;
+G2L["29"]["BackgroundTransparency"] = 1;
+G2L["29"]["Size"] = UDim2.new(0.9958847761154175, 0, 0.8854805827140808, 0);
+G2L["29"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["29"]["ScrollBarThickness"] = 6;
+G2L["29"]["Position"] = UDim2.new(0.003999937791377306, 0, 0.020449897274374962, 0);
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.ScrollingFrame.UIListLayout
-G2L["29"] = Instance.new("UIListLayout", G2L["28"]);
-G2L["29"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
+G2L["2a"] = Instance.new("UIListLayout", G2L["29"]);
+G2L["2a"]["SortOrder"] = Enum.SortOrder.LayoutOrder;
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.ScrollingFrame.TextLabel
-G2L["2a"] = Instance.new("TextLabel", G2L["28"]);
-G2L["2a"]["TextWrapped"] = true;
-G2L["2a"]["BorderSizePixel"] = 0;
-G2L["2a"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2a"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["2a"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2a"]["TextSize"] = 20;
-G2L["2a"]["TextColor3"] = Color3.fromRGB(174, 174, 174);
-G2L["2a"]["Size"] = UDim2.new(0.9917355179786682, 0, 0.05542725324630737, 0);
-G2L["2a"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2a"]["Text"] = [[ServerScriptAPI Command Prompt - CMD is used for running more ADVANCED COMMANDS
+G2L["2b"] = Instance.new("TextLabel", G2L["29"]);
+G2L["2b"]["TextWrapped"] = true;
+G2L["2b"]["BorderSizePixel"] = 0;
+G2L["2b"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2b"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["2b"]["FontFace"] = Font.new([[rbxasset://fonts/families/Arial.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2b"]["TextSize"] = 20;
+G2L["2b"]["TextColor3"] = Color3.fromRGB(174, 174, 174);
+G2L["2b"]["Size"] = UDim2.new(0.9917355179786682, 0, 0.05542725324630737, 0);
+G2L["2b"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2b"]["Text"] = [[ServerScriptAPI Command Prompt - CMD is used for running more ADVANCED COMMANDS
 ]];
-G2L["2a"]["BackgroundTransparency"] = 1;
+G2L["2b"]["BackgroundTransparency"] = 1;
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.ScrollingFrame.TextLabel.UIPadding
-G2L["2b"] = Instance.new("UIPadding", G2L["2a"]);
-G2L["2b"]["PaddingLeft"] = UDim.new(0, 5);
+G2L["2c"] = Instance.new("UIPadding", G2L["2b"]);
+G2L["2c"]["PaddingLeft"] = UDim.new(0, 5);
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.TextBox
-G2L["2c"] = Instance.new("TextBox", G2L["26"]);
-G2L["2c"]["CursorPosition"] = -1;
-G2L["2c"]["BorderSizePixel"] = 0;
-G2L["2c"]["TextSize"] = 14;
-G2L["2c"]["TextXAlignment"] = Enum.TextXAlignment.Left;
-G2L["2c"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
-G2L["2c"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2c"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
-G2L["2c"]["Size"] = UDim2.new(0.9794238805770874, 0, 0.05316973477602005, 0);
-G2L["2c"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["2c"]["Text"] = [[]];
-G2L["2c"]["Position"] = UDim2.new(0.011316872201859951, 0, 0.9222903847694397, 0);
-G2L["2c"]["ClearTextOnFocus"] = false;
+G2L["2d"] = Instance.new("TextBox", G2L["27"]);
+G2L["2d"]["BorderSizePixel"] = 0;
+G2L["2d"]["TextSize"] = 14;
+G2L["2d"]["TextXAlignment"] = Enum.TextXAlignment.Left;
+G2L["2d"]["BackgroundColor3"] = Color3.fromRGB(255, 255, 255);
+G2L["2d"]["TextColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2d"]["FontFace"] = Font.new([[rbxasset://fonts/families/SourceSansPro.json]], Enum.FontWeight.Regular, Enum.FontStyle.Normal);
+G2L["2d"]["Size"] = UDim2.new(0.9794238805770874, 0, 0.05316973477602005, 0);
+G2L["2d"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["2d"]["Text"] = [[]];
+G2L["2d"]["Position"] = UDim2.new(0.011316872201859951, 0, 0.9222903847694397, 0);
+G2L["2d"]["ClearTextOnFocus"] = false;
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.TextBox.UIPadding
-G2L["2d"] = Instance.new("UIPadding", G2L["2c"]);
-G2L["2d"]["PaddingLeft"] = UDim.new(0, 5);
+G2L["2e"] = Instance.new("UIPadding", G2L["2d"]);
+G2L["2e"]["PaddingLeft"] = UDim.new(0, 5);
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.TextBox.UICorner
-G2L["2e"] = Instance.new("UICorner", G2L["2c"]);
+G2L["2f"] = Instance.new("UICorner", G2L["2d"]);
 
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.TextBox.CMD-CommandController
-G2L["2f"] = Instance.new("LocalScript", G2L["2c"]);
-G2L["2f"]["Name"] = [[CMD-CommandController]];
+G2L["30"] = Instance.new("LocalScript", G2L["2d"]);
+G2L["30"]["Name"] = [[CMD-CommandController]];
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Frame
-G2L["30"] = Instance.new("Frame", G2L["19"]);
-G2L["30"]["BorderSizePixel"] = 0;
-G2L["30"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["30"]["Size"] = UDim2.new(1.0000001192092896, 0, 0.01923076994717121, 0);
-G2L["30"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
-G2L["30"]["Position"] = UDim2.new(0, 0, 0.05961538478732109, 0);
+G2L["31"] = Instance.new("Frame", G2L["1a"]);
+G2L["31"]["BorderSizePixel"] = 0;
+G2L["31"]["BackgroundColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["31"]["Size"] = UDim2.new(1.0000001192092896, 0, 0.01923076994717121, 0);
+G2L["31"]["BorderColor3"] = Color3.fromRGB(0, 0, 0);
+G2L["31"]["Position"] = UDim2.new(0, 0, 0.05961538478732109, 0);
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.OpenCMD-ChatCommand
-G2L["31"] = Instance.new("LocalScript", G2L["2"]);
-G2L["31"]["Name"] = [[OpenCMD-ChatCommand]];
+G2L["32"] = Instance.new("LocalScript", G2L["2"]);
+G2L["32"]["Name"] = [[OpenCMD-ChatCommand]];
 
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.Run.Topbar.CloseButton.CloseButton-Controller
 local function C_a()
@@ -424,6 +427,13 @@ local script = G2L["18"];
 		return Humanoid
 	end
 	
+	
+	
+	local function GetWorkspaceCamera()
+		if game.Workspace.CurrentCamera then
+			return workspace.CurrentCamera
+		end
+	end
 	
 	
 	
@@ -464,7 +474,9 @@ local script = G2L["18"];
 	
 	AddRunCommand('/Speed', function() end)
 	
+	AddRunCommand('/cmd', function() end)
 	
+	AddRunCommand('/FOV', function() end)
 	
 	
 	
@@ -487,6 +499,14 @@ local script = G2L["18"];
 					GetHumanoid().WalkSpeed = (tonumber(({...})[1]))
 				else
 					warn('Invalid Number #1, pls enter a number to #1')
+				end
+			elseif Command == '/cmd' then
+				if script.Parent.Parent.CommandPrompt.Visible == false then
+					script.Parent.Parent.CommandPrompt.Visible = true
+				end
+			elseif Command == '/FOV' then
+				if ({...})[1] and tonumber(({...})[1]) then
+					GetWorkspaceCamera().FieldOfView = tonumber(({...})[1])
 				end
 			end
 		else
@@ -517,6 +537,8 @@ local script = G2L["18"];
 	
 			if Splited[1] == '/Damage' or Splited[1] == '/Speed' then
 				UpdateCommands(Splited[1], Splited[2])
+			elseif Splited[1] == '/FOV' then
+				UpdateCommands(Splited[1], Splited[2])
 			else
 				UpdateCommands(Splited[1])
 			end
@@ -524,9 +546,71 @@ local script = G2L["18"];
 	end)
 end;
 task.spawn(C_18);
+-- StarterGui.WindowsRobloxLibrary.FullScreenInset.Run.Drag-Manager
+local function C_19()
+local script = G2L["19"];
+	--// Services
+	local Players = game:GetService('Players')
+	local UIS = game:GetService("UserInputService")
+	
+	--// Variables
+	local UI = script.Parent
+	
+	local Player = Players.LocalPlayer
+	local Mouse = Player:GetMouse()
+	
+	local Hovered = false
+	local Holding = false
+	local MoveCon = nil
+	
+	local InitialX, InitialY, UIInitialPos
+	
+	local ViewPortSize = workspace.Camera.ViewportSize
+	local Speed = 2
+	
+	--// Functions
+	
+	local function Drag()
+		if Holding == false then MoveCon:Disconnect(); return end
+		local distanceMovedX = (InitialX - Mouse.X)*Speed
+		local distanceMovedY = (InitialY - Mouse.Y)*Speed
+	
+		local Pos = UIInitialPos - UDim2.new(distanceMovedX/ViewPortSize.X, 0, distanceMovedY/ViewPortSize.Y, 0)
+		UI.Position = UDim2.new(math.clamp(Pos.X.Scale, 0, 1-UI.Size.X.Scale), 0, math.clamp(Pos.Y.Scale, 0, 1-UI.Size.Y.Scale), 0)
+	end
+	
+	--// Connections
+	
+	UI.MouseEnter:Connect(function()
+		Hovered = true
+	end)
+	
+	UI.MouseLeave:Connect(function()
+		Hovered = false
+	end)
+	
+	UIS.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Holding = Hovered
+			if Holding then
+				InitialX, InitialY = Mouse.X, Mouse.Y
+				UIInitialPos = UI.Position
+	
+				MoveCon = Mouse.Move:Connect(Drag)
+			end
+		end
+	end)
+	
+	UIS.InputEnded:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			Holding = false
+		end
+	end)
+end;
+task.spawn(C_19);
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.TopbarAPP.ExitButton.ExitCMD-Controller
-local function C_25()
-local script = G2L["25"];
+local function C_26()
+local script = G2L["26"];
 	local CMD = script.Parent.Parent.Parent.Parent.CommandPrompt
 	
 	
@@ -535,10 +619,10 @@ local script = G2L["25"];
 		CMD.Visible = false
 	end)
 end;
-task.spawn(C_25);
+task.spawn(C_26);
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.CommandPrompt.Body.TextBox.CMD-CommandController
-local function C_2f()
-local script = G2L["2f"];
+local function C_30()
+local script = G2L["30"];
 	local UserInputService = game:GetService('UserInputService')
 	
 	
@@ -563,6 +647,16 @@ local script = G2L["2f"];
 	
 		return Humanoid
 	end
+	
+	
+	
+	
+	local function GetWorkspaceCamera()
+		if game.Workspace.CurrentCamera then
+			return workspace.CurrentCamera
+		end
+	end
+	
 	
 	
 	
@@ -628,6 +722,24 @@ local script = G2L["2f"];
 				else
 					warn('Invalid Number #1, pls enter a number to #1')
 				end
+			elseif Command == '/FOV' then
+				if ({...})[1] and tonumber(({...})[1]) then
+					GetWorkspaceCamera().FieldOfView = tonumber(({...})[1])
+				end
+			elseif Command == '/platform' then
+				local success, result = pcall(function()
+					local platform = UserInputService:GetPlatform()
+					
+					
+					if platform then
+						Log_CMD_Prompt(platform.Name)
+					end
+				end)
+				
+				
+				if not success then
+					Log_CMD_Prompt('PLEASE SEND THIS ERROR TO THE DEV\n: '..tostring(result))
+				end
 			else
 				if Command == '/run' then
 					local RunTab = script.Parent.Parent.Parent.Parent.Run
@@ -677,6 +789,8 @@ local script = G2L["2f"];
 	
 	
 	AddRunCommand('/run', function() end)
+	AddRunCommand('/FOV', function() end)
+	AddRunCommand('/platform', function() end)
 	
 	
 	
@@ -697,24 +811,24 @@ local script = G2L["2f"];
 	
 	
 	
-			if Splited[1] == '/Damage' or Splited[1] == '/Speed' then
+			if Splited[1] == '/Damage' or Splited[1] == '/Speed' or Splited[1] == '/FOV' then
 				UpdateCommands(Splited[1], Splited[2])
 			else
 				if Splited[1] == '/run' then
 					UpdateCommands(Splited[1])
-				else
-					if Splited[1] == '/BW' then
-						UpdateCommands(CommandInputBar.Text)
-					end
+				elseif Splited[1] == '/BW' then
+					UpdateCommands(CommandInputBar.Text)
+				elseif Splited[1] == '/platform' then
+					UpdateCommands(CommandInputBar.Text)
 				end
 			end
 		end
 	end)
 end;
-task.spawn(C_2f);
+task.spawn(C_30);
 -- StarterGui.WindowsRobloxLibrary.FullScreenInset.OpenCMD-ChatCommand
-local function C_31()
-local script = G2L["31"];
+local function C_32()
+local script = G2L["32"];
 	local Players = game:GetService('Players')
 	local TextChatService = game:GetService('TextChatService')
 	
@@ -753,6 +867,6 @@ local script = G2L["31"];
 		end)
 	end
 end;
-task.spawn(C_31);
+task.spawn(C_32);
 
 return G2L["1"], require;
